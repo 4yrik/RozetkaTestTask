@@ -1,10 +1,7 @@
 package pages;
 
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class AllWashingMachinesPage {

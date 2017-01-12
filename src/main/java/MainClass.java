@@ -16,7 +16,6 @@ public class MainClass {
                                                    .goToWashingMachinesTypesSection()
                                                    .goToAllWashingMachinesSection()
                                                    .getTopSalesNamesAndPrices(3);
-        System.out.println(report);
         Utils.sendEmail("churilov1991e@gmail.com", report);
 
         driver.quit();
