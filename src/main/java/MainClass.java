@@ -16,7 +16,7 @@ public class MainClass {
                                                    .goToWashingMachinesTypesSection()
                                                    .goToAllWashingMachinesSection()
                                                    .getTopSalesNamesAndPrices(3);
-        Utils.sendEmail("churilov1991e@gmail.com", report);
+        Utils.sendEmail("churilov1991e@ukr.net", "Топ продаж стиральных машин", report);
 
         driver.quit();
     }
